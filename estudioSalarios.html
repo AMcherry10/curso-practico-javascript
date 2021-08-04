@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balance ° curso practico de JS</title>
+    <link rel="stylesheet" href="./estudioSalarios.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Mi balance</h1> 
+    </header>
+    <section class="card-inicio">
+    <section class="card">
+        <h2 class="description-title">Escribe tus gastos mensuales</h2>
+
+        <form action="" class="description-text">
+            <label for="InputGastos1">
+                Renta:
+            </label>
+            <input id="InputGastos1" type="number" placeholder="Inserta cantidad mensual">
+
+            <label for="InputGastos2">
+                Servicios:
+            </label>
+            <input id="InputGastos2" type="number" placeholder="Inserta cantidad mensual">
+
+            <label for="InputGastos3">
+                Comida:
+            </label>
+            <input id="InputGastos3" type="number" placeholder="Inserta cantidad mensual">
+
+            <label for="InputGastos4">
+                Transporte:
+            </label>
+            <input id="InputGastos4" type="number" placeholder="Inserta cantidad mensual">
+
+            <label for="InputGastos5">
+                Entretenimiento:
+            </label>
+            <input id="InputGastos5" type="number" placeholder="Inserta cantidad mensual">
+
+            <label for="InputGastos6">
+                Otros:
+            </label>
+            <input id="InputGastos6" type="number" placeholder="Inserta cantidad mensual">
+            
+            <p id="ResultG"></p>
+        </form>
+    </section>
+
+    <section class="card">
+        <h2 class="description-title">Escribe tus ingresos mensuales</h2>
+
+        <form action="" class="description-text">
+            <label for="InputIngresos1">
+                Tarjeta de débito:
+            </label>
+            <input id="InputIngresos1" type="number" placeholder="Inserta cantidad mensual">
+
+            <label for="InputIngresos2">
+                Efectivo:
+            </label>
+            <input id="InputIngresos2" type="number" placeholder="Inserta cantidad mensual">
+
+            <p id="ResultI"></p>
+
+            <button class="button" type="button" onclick="onClickButtonEstado()">Calcular estado de cuenta</button>
+            <p id="ResultE"></p>
+        </form>
+</section>
+</section>
+
+    <script src="./estudioSalarios.js"></script> 
+</body>
+</html>

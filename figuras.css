@@ -1,0 +1,124 @@
+  *{  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'Mulish', sans-serif;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-formas-geometricas-planas-azul-clasico_23-2148380726.jpg?size=626&ext=jpg&ga=GA1.2.2080185765.1627257600);
+  }
+.header {
+    width: 100%;
+    height: 130px;
+    font-size: 1.8rem;
+    text-align: center;
+    display: inline-block;    
+    padding: 20px;
+    background: #a0ffd6da;
+    color: #148BA6;
+  }
+  .header_img{
+    width: 80px;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 5px;
+    float: inline-start;
+  }
+  p{
+    font-size: 1.3rem;
+    text-align: center;
+    color: #15BFBF;
+  }
+  .description-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+  .card{
+    background-color: rgba(255, 255, 255, 0.856);
+    width: 430px;
+    height: 450px;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 40px;
+    color: #167F51;
+    padding:40px 35px 20px;
+    min-height: 700px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.description-text {
+    font-size: 1.3rem;
+    text-align: left;
+    display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+input {
+    background-color: rgba(75, 216, 235, 0.76);
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+    outline: none;
+    height: 35px;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #A0FFD6;
+  }
+  
+  :-ms-input-placeholder {
+    color: #A0FFD6;
+  }
+  
+  ::-ms-input-placeholder {
+    color: #A0FFD6;
+  }
+  
+  ::placeholder {
+    color: white;
+  }
+
+  .button_area {
+    background-color: #F2CC0C;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Mulish', sans-serif;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+  }
+  .button_perimetro {
+    background-color: #A63F03;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Mulish', sans-serif;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+  }

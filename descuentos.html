@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y descuentos, del curso practico de JS</title>
+    <link rel="stylesheet" href="./descuentos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <h1>Porcentajes y descuentos</h1>
+        <p>Este es el segundo taller de javaScript</p>
+    </header>
+
+    <section class="con_inicio">
+    <section class="container"> 
+        <div class="img">
+            <img src="./carro-de-la-compra.png"/>
+        </div>
+        <h2>Calcula el precio a pagar de tus productos con descuento</h2>
+
+        <form class="container-form">
+            <label for="InputPrice">Escribe el precio de tu producto:</label>
+            <input id="InputPrice" type="number" />
+
+            <!-- <label for="InputDiscount">Escribe el descuento de tu producto:</label>
+            <input id="InputDiscount" type="number" />
+
+            <button class="button" type="button" onclick="onClickButtonPriceDiscount()">Calcular el precio con descuento</button>
+            
+            <p id="ResultP"></p> -->
+
+            <nav>
+                <ul>
+                    <li class="submenu" for="inputCoupon"><a href="#">%Tienes un código de descuento</a><i class="far fa-caret-square-down more"></i>
+                        <ul>
+                        <input class="input_codigo" id="inputCoupon" type="text" placeholder="Código promocional"/>
+                        <button class="button_Aplicar" type="button" onclick="onClickButtonPriceDiscount()">APLICAR</button>
+                        </ul>
+                        <p id="ResultP"></p>
+                    </li>
+                </ul>
+            </nav>
+        </form>
+    </section>
+</section>
+    <script src="./descuentos.js"></script>
+</body>
+</html>
